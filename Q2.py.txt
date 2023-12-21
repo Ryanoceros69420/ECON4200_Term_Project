@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+
+plt.plot(listItems)
+plt.xlabel('Day')
+plt.ylabel('Trading Price')
+plt.title('Apple Stock Price, Nov 2019 to Nov 2020')

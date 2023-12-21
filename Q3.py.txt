@@ -1,0 +1,8 @@
+def maximumProfit(listItems):
+    m = 0
+    for i in range(0, len(listItems)):
+        for j in range (i + 1, len(listItems)):
+            m = max(m, listItems[j] - listItems[i])
+    return m
+
+print (maximumProfit(listItems))
